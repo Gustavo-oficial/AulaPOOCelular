@@ -8,7 +8,7 @@ namespace AulaPOOCelular
         {
             Celular smartphone = new Celular();
 
-
+        // Utilizado como um botao para ligar//
         Console.WriteLine("Se deseja ligar o dispositivo aperte 1, e 2 para desliagar:");
         smartphone.on = int.Parse(Console.ReadLine());
             
@@ -44,7 +44,7 @@ namespace AulaPOOCelular
             Console.WriteLine("-------------------------------");
     
             break;
-            
+
             case 2:Console.WriteLine("Celular desligado");
             break;
             
